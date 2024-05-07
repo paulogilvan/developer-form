@@ -1,6 +1,10 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
+    border: 2px solid rgb(102, 66, 11);
+    border-radius: 1.87rem;
+    padding: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     p {
         font-size: 0.81rem;
         color: rgb(102, 66, 11);
@@ -48,6 +52,7 @@ export const Container = styled.div`
             border-radius: 1.87rem;
             margin-top: 1.87rem;
             cursor: pointer;
+            transition: .4s;
 
             &:hover {
                 background-color: rgb(102, 66, 11);

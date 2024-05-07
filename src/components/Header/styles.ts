@@ -7,6 +7,7 @@ export const container = styled.div`
     h2 {
         font-size: 1.75rem;
         color: rgb(102, 66, 11);
+        padding-bottom: 1rem;
     }
     p {
         font-size: 1rem;
